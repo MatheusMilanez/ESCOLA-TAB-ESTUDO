@@ -1,6 +1,6 @@
 # clone-tabnews
-Projeto de estudo.| https://www.tabnews.com.br/ | https://curso.dev/
 
+Projeto de estudo.| https://www.tabnews.com.br/ | https://curso.dev/
 
 # Codigos Terminal NodeJs (Versionamento)
 
@@ -18,13 +18,13 @@ nvm --help -> Documentação do versionamento do nodeJs.
 
 # arquivos
 
-.nvmrc -> 
+.nvmrc ->
 
 # Biblioteca
 
 lts -> Long Term Support (Suporte de longo prazo).
 
-rc -> Run Commands 
+rc -> Run Commands
 
 # Dependencias do projeto
 
