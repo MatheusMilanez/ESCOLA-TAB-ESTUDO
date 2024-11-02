@@ -1,37 +1,93 @@
-# clone-tabnews
+# EscolaTab - Projeto de Estudo
 
-Projeto de estudo.| https://www.tabnews.com.br/ | https://curso.dev/
+O **EscolaTab** é um projeto de estudo que está sendo desenvolvido durante o curso de **Felipe Deschamps** no **Curso .DEV**. Este projeto tem como objetivo replicar a funcionalidade do **TabNews**, uma plataforma de compartilhamento e discussão de notícias.
 
-# Codigos Terminal NodeJs (Versionamento)
+https://www.tabnews.com.br/ | https://curso.dev/
 
-node -v -> Verifica a versão atual do nodeJs instalado.
+## Objetivo do Projeto
 
-nvm ls -> Vai listar todas as versões do nodeJS
+O principal objetivo do EscolaTab é proporcionar uma experiência prática de desenvolvimento, permitindo que os alunos aprendam sobre as melhores práticas de programação, estruturação de projetos e construção de aplicações web. Através deste projeto, os participantes poderão:
 
-nvm install -> Instala a versão do nodeJS
-Ex: nvm install lts/hydrogen
+- Aprender sobre desenvolvimento front-end e back-end.
+- Explorar conceitos de APIs e integração de dados.
+- Praticar o uso de frameworks e bibliotecas modernas.
 
-nvm alias default -> você dar um apelido e aponta para versão do nodeJS.
-Ex: nvm alias default lts/hydrogen
+## Tecnologias Utilizadas
 
-nvm --help -> Documentação do versionamento do nodeJs.
+O projeto utiliza uma variedade de tecnologias para garantir uma experiência de desenvolvimento completa:
 
-# arquivos
+- **Next.js**: Framework React para desenvolvimento web de alta performance.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **PostgreSQL**: Sistema de gerenciamento de banco de dados relacional.
+- **Docker Compose**: Ferramenta para orquestração de containers Docker.
+- **Jest**: Framework de testes para JavaScript.
 
-.nvmrc ->
+## Estrutura do Projeto
 
-# Biblioteca
+├── client # Código do lado do cliente │ ├── src # Fonte do aplicativo React │ └── public # Arquivos estáticos ├── server # Código do lado do servidor │ ├── models # Modelos de dados │ ├── routes # Rotas da API │ └── controllers # Lógica de controle └── README.md # Documentação do projeto
 
-lts -> Long Term Support (Suporte de longo prazo).
 
-rc -> Run Commands
+## Instalação e Execução
 
-# Dependencias do projeto
+Para executar o projeto localmente, siga as etapas abaixo:
 
-(npm install)
+1. Clone o repositório:
 
-npm install next@13.1.6 -> para instalar o next na versão 13.1.6
+    ```bash
+    git clone [URL do repositório]
+    ```
 
-npm install react@18.2.0 -> para instalar o react na versão 18.2.0
+2. Navegue até a pasta do projeto:
 
-npm install react-dom@18.2.0 -> para instalar o react na versão 18.2.0
+    ```bash
+    cd EscolaTab
+    ```
+
+3. Instale as dependências do servidor:
+
+    ```bash
+    cd server
+    npm install
+    ```
+
+4. Instale as dependências do cliente:
+
+    ```bash
+    cd ../client
+    npm install
+    ```
+
+5. Inicie o servidor:
+
+    ```bash
+    cd ../server
+    npm start
+    ```
+
+6. Em seguida, inicie o cliente:
+
+    ```bash
+    cd ../client
+    npm start
+    ```
+
+## Contribuições
+
+Contribuições são bem-vindas! Se você gostaria de contribuir com o projeto, siga as seguintes etapas:
+
+1. Fork o repositório.
+2. Crie uma branch para sua nova feature ou correção de bug.
+3. Faça suas alterações e commit.
+4. Abra um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT.
+
+## Contato
+
+Para qualquer dúvida, sugestão ou feedback, entre em contato.
+
+## Agradecimentos
+
+Agradecemos a todos que estão participando do desenvolvimento deste projeto!
